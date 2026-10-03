@@ -218,3 +218,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AI / ML
+models/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# API keys / secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+data/
+*.csv
+*.jsonl
+
+# Node.js
+node_modules/
+
+# macOS
+.DS_Store
